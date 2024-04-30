@@ -1,0 +1,28 @@
+.Main{
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+    margin: auto;
+}
+
+.Main .addProduct {
+    height: 50px;
+    width: 50%;
+    border-style: none;
+    background-color: #aad7fa;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    order: 1;
+    grid-column: span 1;
+}
+
+.Main .addProduct:hover {
+    background-color: #6ebcff;
+}
+
+

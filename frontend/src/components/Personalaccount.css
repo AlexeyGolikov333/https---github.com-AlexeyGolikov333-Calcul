@@ -1,0 +1,35 @@
+.Personalaccount {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+}
+
+.Personalaccount h1 {
+    margin-bottom: 20px;
+}
+
+.Personalaccount input {
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.Personalaccount h4 {
+    margin-bottom: 20px;
+}
+
+.Personalaccount button {
+    height: 30px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #aad7ff;
+    border-style: none;
+    cursor: pointer;
+}
+
+.Personalaccount button:hover {
+    background-color: #6ebcff;
+}
+
+
